@@ -4,9 +4,9 @@
     --mainNum-font: "Orbitron";
 
     --mainBg-color: #000;
-    --mainColor100-color: #ababab;
-    --mainColor200-color: #ababab;
-    --mainColor300-color: #ababab;
+    --mainColor100-color: #DAFDFF;
+    --mainColor200-color: #9efaff;
+    --mainColor300-color: #41fffc;
 
     --subColor100-color: #ababab;
     --subColor200-color: #ababab;
@@ -16,7 +16,7 @@
     --black: #000;
     --black100: #ddd;
     --black200: #ccc;
-    --black300: #333;
+    --black300: #2b2b2b;
 
     font-family: var(--mainEng-font), var(--mainKor-font), var(--mainNum-font);
     font-size: 16px;
@@ -31,8 +31,8 @@
 }
 
 body {
-    color: var(--black);
-    background-color: var(--mainColor100-color);
+    color: var(--mainColor100-color);
+    background-color: var(--black300);
 }
 
 @media (max-width:800px) {

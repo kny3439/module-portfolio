@@ -3,3 +3,12 @@
 /* setting */
 @import url(./src/css/base/reset.css);
 @import url(./src/css/base/fonts.css);
+@import url(./src/css/base/vars.css);
+
+/* layout */
+@import url(./src/css/pages/header.css);
+
+section{
+height: 100vh;
+border: 1px solid #cecece;
+}
